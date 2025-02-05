@@ -346,8 +346,42 @@ class logic_building{
             System.out.println();
         }
     }
+    public static void print22(int n){
+        for(int i=0;i<2*n-1;i++){
+            for(int j=0;j<2*n-1;j++){
+                int top = i;
+                int bottom = j;
+                int right = (2*n-2) - j;
+                int left = (2*n-2) - i;
+
+                System.out.print(n-Math.min(Math.min(top,bottom),Math.min(right,left))+" ");
+            }
+            System.out.println();
+        }
+    }
     public static void main(String[] args){
         int n = 5;
-        print3(n);
+        // print1(n);
+        // print2(n);
+        // print3(n);
+        // print4(n);
+        // print5(n);
+        // print6(n);
+        // print7(n);
+        // print8(n);
+        // print9(n);
+        // print10(n);
+        // print11(n);
+        // print12(n);
+        // print13(n);
+        // print14(n);
+        // print15(n);
+        // print16(n);
+        // print17(n);
+        // print18(n);
+        // print19(n);
+        print20(n);
+        // print21(n);
+        // print22(n);
     }
 }
