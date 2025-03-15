@@ -18,7 +18,7 @@ public class trapping_rain_water {
                 postmax=post[i];
                 
             }
-    
+   
             int min=0,sum=0;
             for(int i=0;i<len;i++){
                 min=Math.min(pre[i],post[i]);
