@@ -1,3 +1,4 @@
+// leetcode - 1432
 class maximum_points_you_can_obtain_from_cards {
     public static int maxSum(int []a, int k){  // time complexity => O(2*K)
 
