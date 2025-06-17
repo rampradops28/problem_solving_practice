@@ -1,6 +1,5 @@
 package striver_sde_sheet.Arrays_II;
-
-import java.util.Arrays;
+ 
 
 public class Find_Duplicate {
     // public static int findDuplicate(int[] nums) { // brute
@@ -17,7 +16,7 @@ public class Find_Duplicate {
          
     //     return res ;
     // }
-    public int findDuplicate(int[] nums) { // better
+    public static int findDuplicate(int[] nums) { // better
      
         int n = nums.length;
         int[] hash = new int[n+1];
