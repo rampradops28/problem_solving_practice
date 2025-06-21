@@ -1,6 +1,6 @@
 // leetcode - 3
 import java.util.*;
-class longest_substring_without_repeating_characters {
+class Longest_Substring_Without_Repeating_Characters {
     // public static int lengthOfLongestSubstring(String s) { //brute force
 
     //     int n = s.length();
