@@ -5,7 +5,13 @@
 //     public static boolean subsetSum(int i, List<Integer> res, int k, int sum, int[] a, int n){
 
 //         if(i == n){
-//            return  sum == k;
+//              if(sum == k){
+                //     for(int j=0;j<res.size();j++){
+                //         System.out.print(res.get(j)+" ");
+                //     }
+                //     return true;
+                // }
+                // return false;
 //         }
 
 //         res.add(a[i]);

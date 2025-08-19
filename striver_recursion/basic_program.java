@@ -2,7 +2,7 @@
 class basic_program{
 
     public static void print1toN(int ind, int n){
-        if(ind > n) return;
+        if(ind >= n) return;
         System.out.println(ind);
         print1toN(ind+1, n);
     }
@@ -34,7 +34,7 @@ class basic_program{
     }
 
     public static int fibonacci(int n){
-        if(n <= 1) return n;
+        if(n <= 1) return n; // n is either 0 or 1
 
         return fibonacci(n-1) + fibonacci(n-2);
     }
@@ -51,7 +51,7 @@ class basic_program{
         arr[i] = arr[n-i-1];
         arr[n-i-1] = temp;
 
-        reverse(n+1, arr, n); 
+        reverse(i+1, arr, n); 
     }
 
     public static boolean palindrome(int i,String name){
@@ -78,16 +78,16 @@ class basic_program{
 
         // System.out.println(fact(n));
 
-        System.out.println(fibonacci(n));
+        // System.out.println(fibonacci(n));
 
         // int n = 5;
-        // int arr[] = {1,2,3,4,5};
+        int arr[] = {1,2,3,4,5};
 
-        // reverse(0,arr,n);
+        reverse(0,arr,n);
 
-        // for(int i=0;i<n;i++){
-        //     System.out.println(arr[i]);
-        // }
+        for(int i=0;i<n;i++){
+            System.out.println(arr[i]);
+        }
 
         // String name = "madum";
 
